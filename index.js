@@ -5,7 +5,7 @@ function diceRoll(n) {
 
     var imageName = "dice" + randomNumber1 + ".png";
 
-    var imageSource = "images/" + imageName;
+    var imageSource = imageName;
 
     var imageChange = document.querySelectorAll("img")[n];
 
