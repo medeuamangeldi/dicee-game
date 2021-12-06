@@ -19,11 +19,11 @@ player1 = diceRoll(0);
 player2 = diceRoll(1);
 
 if (player1>player2) {
-    document.querySelectorAll("h1")[0].innerHTML = "Player 1 drinks";
+    document.querySelectorAll("h1")[0].innerHTML = "Player 2 drinks";
 }
 
 else if (player1<player2) {
-    document.querySelectorAll("h1")[0].innerHTML = "Player 2 drinks";
+    document.querySelectorAll("h1")[0].innerHTML = "Player 1 drinks";
 }
 
 else {
